@@ -1,4 +1,4 @@
-//Al click su un bottone, il programma genera un numero casuale tra 1 e 10. Se il numero è pari, toglie la classe pari da p#numero.pari.dispari altrimenti toglie la classe dispari.
+//Al click su un bottone, il programma genera un numero casuale tra 1 e 10. Se il numero è pari, toglie la classe pari altrimenti toglie la classe dispari.
 
 var btnClick  = document.getElementById("click");
 btnClick.addEventListener("click", function (){
@@ -8,10 +8,10 @@ btnClick.addEventListener("click", function (){
 
     if (num %2 == 0){
         var pd = "pari";
-        para.classList.remove("pari");
+        para.className = "pari";
     } else{
         var pd = "dispari";
-        para.classList.remove("dispari");
+        para.className = "dispari";
     }
 
     console.log(num, pd)

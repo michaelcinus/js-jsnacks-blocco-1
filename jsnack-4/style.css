@@ -1,12 +1,13 @@
 #para{
     width: 100px;
     height: 100px;
+
    }
    
    .pari{
-       border: solid 5px black;
+    border: solid 5px black;
    }
    
    .dispari{
-       background-color: red;
+    background-color: red;
    }

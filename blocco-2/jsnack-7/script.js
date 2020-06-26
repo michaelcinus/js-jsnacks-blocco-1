@@ -1,4 +1,4 @@
-//JSnack7
+//JSnack7 Stampa le potenze di 2 fino a 1000.
 var ris = 1;
 var i = 1;
 do{

@@ -1,4 +1,4 @@
-//JSnack5
+//JSnack5 Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array.
 var numeriDisp = [];
 var numero;
 var i = 0;
@@ -13,4 +13,4 @@ while (i<6) {
     console.log(numero);
 }
 
-console.log(numeri);
+console.log(numeriDisp);
